@@ -10,37 +10,60 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<div class="card">
+
 		<form method="post">
-		<h1 class="align-center">Internship Form</h1>
-		<label for="name" >First Name</label>
-		<input required id="first-name-input" type="text">
-		<label for="name" >Last Name</label>
-		<input required id="last-name-input" type="text">
-		<label for="email" >Email Address</label>
-		<input required id="email-input" type="email">
-		<label for="collage" >Collage</label>
-		<input required id="college-input" type="text">
-		
-		<label for="years"  itemtype="select" >Graduation Year</label>
-		<select id="years">
-			
-			<option>Choose...</option>
-			<option>2020</option>
-			<option>2021</option>
-			<option>2022</option>
-			<option>2023</option>
-		</select>
 
-		<input type="checkbox" id="conditions-checkbox" required>
-		<label for="conditions-checkbox" > Agree to terms and conditions</label>
-		
-		<label for="year" >Roll No.</label>
-		<input id="roll-no-input" required>
-		
+      <h1 class="text-center" >Internship Form</h1>
+        <div class="section"> 
+          <label for="name" >First Name</label>
+          <input required id="first-name-input" type="text">
+        </div>
+    
+        <div>
+          <label for="name" >Last Name</label>
+          <input required id="last-name-input" type="text">
+        </div>
 
-		<button>Submit form</button>
-		
-		
+        <div>
+          <label for="email" >Email Address</label>
+		      <input required id="email-input" placeholder="xyz@email.com" type="email">
+        </div>
+
+        <div>
+          <label for="collage" >Collage</label>
+          <input required id="college-input" type="text"> 
+          <!-- <textarea rows="4" cols="50" name="comment" form="usrform">
+            Enter text here...</textarea>          -->
+        </div>
+
+
+        <div>
+          <label for="years"  itemtype="select" >Graduation Year</label>
+          
+          <select id="years" style="width: 25vw;">
+            
+            <option>Choose...</option>
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+          </select>
+          
+        </div>
+
+        <div>
+          <label for="year" >Roll No.</label>
+          <input id="roll-no-input" style="width: 24vw;" required>
+        </div>
+<!-- <div class="checkbox"> -->
+  <input  class="checkbox" type="checkbox" id="conditions-checkbox" required>
+  <label  class="checkbox" for="conditions-checkbox" > Agree to terms and conditions</label>
+
+<!-- </div> -->
+        <br>
+        <br>
+    <button class="btn btn-primary">Submit form</button>
+
 	</form>
 	</div>
 	
